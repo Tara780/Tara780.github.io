@@ -1,0 +1,52 @@
+body {
+  font-size: 18px;
+  font-family: 'Nobile', sans-serif;
+  line-height: 1.5;
+}
+
+header, main, footer {
+  margin: 1.25rem auto;
+  max-width: 1080px;
+}
+
+header, footer {
+  background-color: rgb(79, 63, 94);
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+}
+
+header {
+  font-size: 24px;
+  height: 100px;
+  line-height: 2;
+}
+
+header h1 {
+  margin-left: 220px;
+}
+
+main h1 {
+  border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+footer {
+  padding: 10px;
+}
+
+#content {
+  padding: 24px;
+  padding-bottom: 24px;
+  color: rgb(53, 53, 53);
+}
+
+header img {
+  float: right;
+  width: 200px;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+#updated {
+  color: yellow;
+}
