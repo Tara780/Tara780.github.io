@@ -26,7 +26,7 @@ header h1 {
   margin-left: 220px;
 }
 
-main h1 {
+main h2 {
   border-bottom: 1px solid rgb(165, 165, 165);
 }
 
@@ -49,4 +49,8 @@ header img {
 
 #updated {
   color: yellow;
+}
+
+footer a {
+  color: white;
 }
