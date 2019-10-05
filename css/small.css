@@ -1,6 +1,6 @@
 body {
   font-size: 1.0rem;
-  font-family: 'Nobile', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
 }
 
@@ -26,7 +26,7 @@ h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Ribeye', cursive;
 }
 
 main h2 {
