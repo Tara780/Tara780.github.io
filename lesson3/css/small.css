@@ -127,12 +127,12 @@ main table {
   padding: 0.5rem 1rem;
 }
 
-#header-color {
+#header-color, #footer-color {
   background-color: #4d7298;
   color: #fff;
 }
 
-#nav-color {
+#nav-color, #contact-color {
   background-color: #77a6b6;
   color: #000000;
 }
