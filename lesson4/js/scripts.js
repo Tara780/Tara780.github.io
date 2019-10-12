@@ -6,5 +6,12 @@ function toggleMenu() {
 }
 
 // Return current date in the format "Wednesday, 20 May 2020"
-const options = { dateStyle: 'full' };
-document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
+var currentDate = new Date();
+var weekdayOption = { weekday: 'long' };
+var weekday = currentDate.toLocaleDateString('en-US', weekdayOption);
+var monthOption = { month: 'long' };
+var month = currentDate.toLocaleDateString('en-US', monthOption);
+var day = currentDate.getDate();
+var year = currentDate.getFullYear();
+
+document.getElementById('currentdate').textContent = weekday + ", " + day + " " + month + " " + year;
