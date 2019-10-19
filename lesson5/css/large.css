@@ -66,4 +66,12 @@
     width: 400px;
   }
 
+  address {
+    font-size: 1.2em;
+  }
+  
+  address a {
+    font-size: 1em;
+  }
+
 }
