@@ -14,7 +14,7 @@
   h2 {
     font-size: 2em;
   }
-  
+
   .navigation {
     display: flex;
   }
@@ -41,16 +41,16 @@
   .weather-summary {
     padding: 1.5rem;
   }
-  
+
   .weather-summary h3 {
     font-size: 1.5em;
   }
 
-  .ws-content{
+  .ws-content {
     font-size: 1.25em;
   }
 
-  .ws-content div{
+  .ws-content div {
     line-height: 1.75rem;
   }
 
@@ -69,7 +69,7 @@
   address {
     font-size: 1.2em;
   }
-  
+
   address a {
     font-size: 1em;
   }

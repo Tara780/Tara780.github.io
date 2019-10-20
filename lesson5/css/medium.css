@@ -29,7 +29,7 @@
     width: 100%;
     margin: 0;
   }
-  
+
   .weather-summary {
     padding: 1.25rem;
   }
@@ -38,11 +38,11 @@
     font-size: 1.25em;
   }
 
-  .ws-content{
+  .ws-content {
     font-size: 1em;
   }
 
-  .ws-content div{
+  .ws-content div {
     line-height: 1.5rem;
   }
 
