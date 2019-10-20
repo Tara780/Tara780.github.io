@@ -174,7 +174,6 @@ main {
 .section2 {
   display: none;
   background-color: #d0efb1;
-/*  background-color: #e7f4cd; */
   margin: 0.75rem;
   padding: 1rem;
 }
@@ -253,9 +252,11 @@ main {
   width: 45%;
   justify-content: center;
   align-items: center;
-  border-left: 1px solid rgba(0, 0, 0, 0.6);
-  border-top: 1px solid rgba(0, 0, 0, 0.6);
-  border-right: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.contact-img img{
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 .contact-box {
