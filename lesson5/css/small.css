@@ -198,7 +198,7 @@ main {
 .forecast div {
   display: grid;
   justify-items: center;
-  border-right: 1px solid rgba(0, 0, 0, 0.3));
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -206,7 +206,7 @@ main {
   font-weight: bold;
   padding: 0.2rem;
   color: white;
-  background-color: #7AA36F;
+  background-color: #6f9565;
 }
 
 .forecast-temp {
