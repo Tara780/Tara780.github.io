@@ -126,7 +126,7 @@ main {
 
 .section1 {
   position: relative;
-  margin: 0.75rem;
+  margin: 1rem;
 }
 
 .hero-image {
@@ -174,7 +174,7 @@ main {
 .section2 {
   display: none;
   background-color: #d0efb1;
-  margin: 0.75rem;
+  margin: 1rem;
   padding: 1rem;
 }
 
@@ -215,7 +215,7 @@ main {
 
 .section3 {
   background-color: #b3d89c;
-  margin: 0.75rem;
+  margin: 1rem;
   padding: 1rem;
 }
 
