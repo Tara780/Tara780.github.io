@@ -128,6 +128,7 @@ main {
   margin: auto;
 }
 
+/***** Hero Image / Weather Summary ***/
 .section1 {
   position: relative;
   margin: 1rem;
@@ -174,6 +175,7 @@ main {
   justify-items: end;
 }
 
+/***** Forecst ************************/
 .section2 {
   display: none;
   background-color: #d0efb1;
@@ -205,6 +207,11 @@ main {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.forecast-image img {
+  width: 80%;
+  padding: 0.75rem;
+}
+
 .forecast-label {
   font-weight: bold;
   padding: 0.2rem;
@@ -216,6 +223,7 @@ main {
   padding-bottom: 0.2rem;
 }
 
+/***** Article ************************/
 .section3 {
   background-color: #b3d89c;
   margin: 1rem;
@@ -240,6 +248,7 @@ main {
   color: rgba(0, 0, 0, 0.6);
 }
 
+/***** Contact Info *******************/
 .section4 {
   display: flex;
   flex-direction: row;
