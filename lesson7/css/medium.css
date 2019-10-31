@@ -3,6 +3,7 @@
     font-size: 16px;
   }
 
+  /*** Header *****************************************/
   header img {
     width: 90px;
     padding: 0.75rem;
@@ -21,10 +22,12 @@
     font-size: 1.75em;
   }
 
+  /*** Navigation *************************************/
   nav {
     font-size: 1.3em;
   }
 
+  /*** Location Pages: Hero Image / Weather Summary ***/
   .hero-image img {
     width: 100%;
     margin: 0;
@@ -46,10 +49,12 @@
     line-height: 1.5rem;
   }
 
+  /*** Location Pages: Forecast ************************/
   .section2 {
     display: block;
   }
 
+  /*** Location Pages: Article ************************/
   .section3 {
     padding: 2rem;
   }
@@ -64,6 +69,12 @@
     margin-top: 0;
   }
 
+  /*** Gallery Page ***********************************/
+  .pic-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*** Contact Info ***********************************/
   .contact-img {
     display: flex;
   }
@@ -72,6 +83,7 @@
     width: 45%;
   }
 
+  /*** Footer *****************************************/
   footer {
     font-size: 1em;
     max-width: 1080px;
