@@ -251,7 +251,7 @@ main {
 /*** Gallery Page ***********************************/
 .pic-grid {
   display: grid;
-  grid-template-columns: 1fr
+  grid-template-columns: 1fr;
   justify-content: center;
   padding: 2rem; 
   margin: auto;
