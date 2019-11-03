@@ -257,7 +257,7 @@ main {
   margin: auto;
 }
 
-picture {
+figure {
   display: grid;
   align-content: space-between;
   justify-content: center;
@@ -267,18 +267,18 @@ picture {
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-picture img { 
+figure img { 
   display: grid;
   width: 100%;
   filter: blur(0em);
   transition: filter 0.5s;
 }
 
-picture img[data-src] {
+figure img[data-src] {
   filter: blur(0.2em);
 }
 
-picture figcaption {
+figure figcaption {
   display: none;
   padding: 1rem;
   text-align: center;
