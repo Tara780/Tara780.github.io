@@ -248,12 +248,13 @@ main {
   margin-top: 0;
   color: rgba(0, 0, 0, 0.6);
 }
+
 /*** Gallery Page ***********************************/
 .pic-grid {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  padding: 2rem; 
+  padding: 2rem;
   margin: auto;
 }
 
@@ -267,7 +268,7 @@ figure {
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-figure img { 
+figure img {
   display: grid;
   width: 100%;
   filter: blur(0em);
@@ -287,7 +288,167 @@ figure figcaption {
   font-size: 0.9rem;
 }
 
+/*** Storm Center Page ******************************/
+p.center {
+  text-align: center;
+  padding: 0 0.75rem;
+}
 
+div.vspace {
+  height: 36px;
+}
+
+.red {
+  color: red;
+}
+
+/*** Storm Center Page: Form Settings ***************/
+form fieldset {
+  margin: 2rem 2%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0 4% 2rem 4%;
+}
+
+form fieldset.color1 {
+  background-color: #e7f4cd;
+}
+
+form fieldset.color2 {
+  background-color: #d0efb1;
+}
+
+form fieldset.color3 {
+  background-color: #b3d89c;
+}
+
+form legend {
+  font-family: 'Marcellus', serif;
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  text-shadow: white 1px 1px, white -1px 1px, white 2px 2px 2px, white -2px 2px 2px,
+    white 3px 3px 4px, white -3px 3px 4px, white 4px 4px 6px, white -4px 4px 6px,
+    white 5px 5px 8px, white -5px 5px 8px, white 6px 6px 10px, white -6px 6px 10px;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+  -webkit-appearance: none; 
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 89%;
+  max-width: 20rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+form label input:focus, 
+form label select:focus,
+form label textarea:focus {
+  border:1px solid black;
+  outline: none !important;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem;
+  color: #555;
+}
+
+form label.top input:required {
+  border-color: red;
+}
+
+form label.top input:required:valid {
+  border-color: #999;
+}
+
+/*** Storm Center Page: Storm Severity Slider *******/
+form label.severity div.severitylabels {
+  max-width: 21.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(114, 114, 114);
+  padding: 0;
+  margin-bottom: -10px;
+}
+
+form label.severity div.severitylabels div.labelbox {
+  display: flex;
+  width: 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+form label.severity div.severitylabels div.labelbox div {
+  padding-top: 0;
+  font-size: 0.8rem;
+}
+
+form label.severity input{
+  -webkit-appearance: none;
+  display: block;
+  max-width: 21.5rem;
+  background-color: #d0efb1; 
+}
+
+input[type=range] {
+  margin: 20px 0 10px 0; 
+  width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 3px;
+  background: rgb(134, 134, 134); 
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #555;
+  height: 28px;
+  width: 20px;
+  border-radius: 4px;
+  background: rgb(228, 228, 228);
+  margin-top: -12px;
+}
+
+/*** Storm Center Page: Submit Button & Misc Items **/
+form label.top select.region {
+  width: 98%; 
+  max-width: 21.5rem;
+}
+
+form div.divlabel {
+  padding-top: 1rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #95c687;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0 0 2rem 0;
+  width: 100%;
+  max-width: 20rem;
+  height: 3rem;
+  border: 2px solid black;
+}
+
+form div.button-div {
+  margin: 2rem 2%;
+}
 
 /*** Contact Info ***********************************/
 .section4 {
