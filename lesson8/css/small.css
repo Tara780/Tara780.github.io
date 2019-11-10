@@ -454,9 +454,14 @@ form input.submitBtn {
   padding: 0.5rem;
   margin: 0 0 2rem 0;
   width: 100%;
-  max-width: 20rem;
-  height: 3rem;
+  max-width: 15rem;
+  height: 3.5rem;
   border: 2px solid black;
+  font-size: 1.25rem;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(149,198,135,0.4);
 }
 
 form div.button-div {
