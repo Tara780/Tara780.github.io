@@ -299,7 +299,7 @@ div.vspace {
 }
 
 .red {
-  color: red;
+  color: #990000;
 }
 
 /*** Storm Center Page: Form Settings ***************/
@@ -368,7 +368,7 @@ form label.sbs {
 }
 
 form label.top input:focus:required:invalid {
-  border-color: red;
+  border-color: #990000;
 }
 
 /*** Storm Center Page: Storm Severity Slider *******/
@@ -376,7 +376,7 @@ form label.severity span.severitylabels {
   max-width: 21.5rem;
   display: flex;
   justify-content: space-between;
-  color: rgb(114, 114, 114);
+  color: #474747;
   padding: 0;
   margin-bottom: -10px;
 }
