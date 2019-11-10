@@ -367,16 +367,12 @@ form label.sbs {
   color: #555;
 }
 
-form label.top input:required {
+form label.top input:focus:required:invalid {
   border-color: red;
 }
 
-form label.top input:required:valid {
-  border-color: #999;
-}
-
 /*** Storm Center Page: Storm Severity Slider *******/
-form label.severity div.severitylabels {
+form label.severity span.severitylabels {
   max-width: 21.5rem;
   display: flex;
   justify-content: space-between;
@@ -385,14 +381,14 @@ form label.severity div.severitylabels {
   margin-bottom: -10px;
 }
 
-form label.severity div.severitylabels div.labelbox {
+form label.severity span.severitylabels span.labelbox {
   display: flex;
   width: 20px;
   justify-content: center;
   padding: 0;
 }
 
-form label.severity div.severitylabels div.labelbox div {
+form label.severity span.severitylabels span.labelbox span {
   padding-top: 0;
   font-size: 0.8rem;
 }
