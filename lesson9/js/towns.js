@@ -32,7 +32,7 @@ fetch(requestURL)
         population.textContent = 'Population: ' + towns[i].currentPopulation;
         rainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
         photo.setAttribute('src', "images/" + towns[i].photo);
-        photo.setAttribute('alt', towns[i].name + ' ' + towns[i].lastname + ' - ' + (i + 1));
+        photo.setAttribute('alt', 'picture of ' + towns[i].name + ', Idaho');
 
         townInfo.appendChild(name);
         townInfo.appendChild(motto);
