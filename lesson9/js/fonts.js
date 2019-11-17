@@ -3,7 +3,8 @@ WebFont.load({
     families: [
       'Marcellus',
       'Marcellus SC',
-      'Open Sans'
+      'Open Sans',
+      'Ribeye'
     ]
   }
 });
