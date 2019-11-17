@@ -30,15 +30,38 @@
     flex: 1 1 100%;
   }
 
-  .section1,
-  .section2,
-  .section3 {
+  /*** Home Page: Feature *****************************/
+  div.feature {
+    padding: 3rem;
     margin: 2rem 0;
+  }
+
+  /*** Home Page: Local Towns *************************/
+  div.towns {
+    margin: 2rem 0;
+  }
+
+  div.town-data {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.75rem;
+  }
+
+  div.town-data section {
+    display: block;
+  } 
+
+  div.town-data section div.town-info {
+    margin: 1rem 2.5rem;
+  }
+
+  div.town-data section p.motto {
+    height: 50px;
   }
 
   /*** Location Pages: Hero Image / Weather Summary ***/
   .section1 {
     padding: 0;
+    margin: 2rem 0;
   }
 
   .weather-summary {
@@ -58,13 +81,18 @@
   }
 
   /*** Location Pages: Forecast ************************/
+  .section2 {
+    margin: 2rem 0;
+  }
+  
   .section2 h3 {
     font-size: 1.55em;
   }
 
   /*** Location Pages: Article ************************/
-  .section3 {
+  div.section3 {
     padding: 3rem;
+    margin: 2rem 0;
   }
 
   .article-img {

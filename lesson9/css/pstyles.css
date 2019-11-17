@@ -42,7 +42,6 @@ main {
 }
 
 div.cards {
-/*  max-width: 1400px; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -54,20 +53,16 @@ div.cards section {
   display: grid; 
   justify-items: center; 
   width: 97%;
-/*  max-width: 300px; */
   margin: 0.25rem;
   border: 1px solid rgba(0, 0, 0, 0.3);
-/*  border-radius: 8px; */
   background-color: #E5E4D9;
 }
 
 img {
   align-self: center;
-/*  width: 80%; */
   max-height: 300px;
   margin: 1.5rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
-/*  border-radius: 8px; */
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3),
               -3px -3px 10px rgba(0, 0, 0, 0.3);
 }
@@ -93,10 +88,6 @@ img {
   main {
     padding: 1rem;
   }
-
-/*  div.cards {
-    max-width: 800px;
-  } */
   
 }
 
@@ -106,9 +97,5 @@ img {
   div.cards {
     grid-template-columns: repeat(4, 1fr);
   }
-
-/*  div.cards {
-    max-width: 1500px;
-  } */
 
 }

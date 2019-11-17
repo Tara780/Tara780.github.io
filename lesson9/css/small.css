@@ -128,6 +128,77 @@ main {
   margin: auto;
 }
 
+/*** Home Page: Banner Image ************************/
+div.banner-image img {
+  width: 100%;
+  margin-top: -1rem;
+}
+
+/*** Home Page: Feature *****************************/
+div.feature {
+  background-color: #e7f4cd;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/*** Home Page: Local Towns *************************/
+div.towns {
+  background-color: #d0efb1;
+  margin: 1rem;
+  padding: 0.75rem;
+}
+
+div.town-data {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+}
+
+div.town-data section {
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: space-between;
+  width: 97%;
+  margin: 0.5rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+div.town-data section div.town-info {
+  margin: 1rem;
+}
+
+div.town-data section h3 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 0;
+}
+
+div.town-data section p {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+div.town-data section p.motto {
+  font-weight: bold;
+  font-style: italic;
+}
+
+div.town-data section div.town-image {
+  display: grid;
+}
+
+div.town-data section div.town-image img {
+  display: grid;
+  align-self: end;
+  width: 100%;
+}
+
 /*** Location Pages: Hero Image / Weather Summary ***/
 .section1 {
   position: relative;
@@ -341,7 +412,7 @@ form div {
 form label.top input,
 form label.top select,
 form label.top textarea {
-  -webkit-appearance: none; 
+  -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
@@ -353,12 +424,12 @@ form label.top textarea {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-form label input:focus, 
+form label input:focus,
 form label select:focus,
 form label textarea:focus {
-  border:1px solid black;
+  border: 1px solid black;
   outline: none !important;
-  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 form label.sbs {
@@ -393,22 +464,22 @@ form label.severity span.severitylabels span.labelbox span {
   font-size: 0.8rem;
 }
 
-form label.severity input{
+form label.severity input {
   -webkit-appearance: none;
   display: block;
   max-width: 21.5rem;
-  background-color: #d0efb1; 
+  background-color: #d0efb1;
 }
 
 input[type=range] {
-  margin: 20px 0 10px 0; 
+  margin: 20px 0 10px 0;
   width: 100%;
 }
 
 /* Slider styling in Chrome */
 input[type=range]::-webkit-slider-runnable-track {
   height: 3px;
-  background: rgb(134, 134, 134); 
+  background: rgb(134, 134, 134);
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -425,7 +496,7 @@ input[type=range]::-webkit-slider-thumb {
 /* Slider styling in Firefox */
 input[type=range]::-moz-range-track {
   height: 3px;
-  background: rgb(134, 134, 134); 
+  background: rgb(134, 134, 134);
 }
 
 input[type=range]::-moz-range-thumb {
@@ -439,7 +510,7 @@ input[type=range]::-moz-range-thumb {
 
 /*** Storm Center Page: Submit Button & Misc Items **/
 form label.top select.region {
-  width: 98%; 
+  width: 98%;
   max-width: 21.5rem;
 }
 
@@ -461,7 +532,7 @@ form input.submitBtn {
 }
 
 input[type="submit"]:hover {
-  background-color: rgba(149,198,135,0.4);
+  background-color: rgba(149, 198, 135, 0.4);
 }
 
 form div.button-div {
