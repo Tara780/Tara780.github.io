@@ -1,0 +1,218 @@
+/*****************************************************
+/                 Temple Inn & Suites
+/                   - Large View -
+/*****************************************************/
+
+/************************************************/
+/* Global Styles -------------------------------*/
+/************************************************/
+
+body {
+  font-size: 16px;
+}
+
+/************************************************/
+/* Header --------------------------------------*/
+/************************************************/
+
+header {
+  flex-direction: row;
+  justify-content: space-between;
+
+  a div.logo-box {
+    font-size: 1.5rem;
+
+    img {
+      height: 80px;
+      padding-left: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 2.5rem;
+      padding-right: 1rem;
+      padding-top: 1rem;
+    }
+
+    h1 span.fancy {
+      font-size: 3.5rem;
+    }
+  }
+
+  /* Navigation --------------------------------*/
+
+  nav {
+    margin-right: 1rem;
+
+    ul.navigation {
+
+      li {
+        display: grid;
+        grid-template-rows: 0.75fr 1fr 0.75fr;
+
+        img.active-decoration {
+          display: grid;
+          width: 7rem;
+        }
+
+        div.top-decoration {
+          justify-self: center;
+          align-self: end;
+        }
+
+        div.bottom-decoration {
+          justify-self: center;
+          align-self: start;
+        }
+      }
+
+      li:nth-child(5) {
+        display: none;
+      }
+
+      li:hover {
+        background-color: $mainColorDark;
+      }
+
+      li.dropdown {
+
+        div.dropdown-menu {
+          display: none;
+          position: absolute;
+          top: 95px;
+          background-color: $mainColorLight;
+          min-width: 123px;
+          z-index: 1;
+        }
+
+        div.dropdown-menu a {
+          color: $textColor;
+          text-align: left;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        div.dropdown-menu a:hover {
+          background-color: $mainColorDark;
+        }
+      }
+
+      li.dropdown:hover div.dropdown-menu {
+        display: block;
+      }
+    }
+  }
+
+  div.responsive {
+    display: none;
+  }
+}
+
+/************************************************/
+/* Main ----------------------------------------*/
+/************************************************/
+
+main {
+
+  /* Home: Hero/Banner Image -------------------*/
+
+  section.hero {
+    max-height: none;
+    margin-bottom: -5rem;
+
+    img.home-banner {
+      max-width: 100%;
+      left: 0;
+      max-height: 50rem;
+    }
+  }
+
+  /* Home: Page Tiles --------------------------*/
+
+  section.page-tiles {
+    max-width: 1200px;
+  }
+
+  section.temple-feature {
+    max-width: 1200px;
+  }
+
+  /**********************************************/
+  /* Services, Receptions, & Missionaries Pages */
+  /**********************************************/
+
+  section.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+
+    h2 {
+      grid-column: span 2;
+    }
+
+    div.text {
+      padding-left: 3rem;
+    }
+  }
+
+  /**********************************************/
+  /* Temples Page ------------------------------*/
+  /**********************************************/
+
+  p.large {
+    margin: 1rem auto;
+    max-width: 1200px;
+  }
+
+  div.cards {
+    line-height: 1.5rem;
+
+    section {
+      grid-template-columns: 1fr 1fr;
+      max-width: 1200px;
+
+      div {
+        margin: 0;
+      } 
+
+      div.temple-name {
+        grid-column: span 2;
+      }
+
+      div.left {
+
+        img {
+          justify-self: start; 
+          width: 100%;     
+        } 
+      }
+    }
+  }
+
+  /**********************************************/
+  /* Contact Page ------------------------------*/
+  /**********************************************/
+
+  section.contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+
+    div.contact-info {
+      padding: 4rem;
+    }
+
+    div.contact-form {
+      grid-row: auto;
+      margin: 4rem;
+    }
+  }
+
+  /* Contact Thanks Page------------------------*/
+
+  div.thanks-message {
+    height: 30rem;
+  }
+}
